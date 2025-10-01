@@ -70,3 +70,11 @@ You also need to install latest graphics drivers that support CUDA.
 longer than 2 seconds will trigger the Timeout Detection and Recovery (TDR) mechanism.
 Detailed information on disabling the Windows TDR is available at:
 http://msdn.microsoft.com/en-us/windows/hardware/gg487368.aspx#E2
+
+Installation
+------------
+1. Make sure you have typical build tools, make, cmake, a compiler, etc.
+2. Clone this repo locally and cd to it.
+3. Run `cmake` or `cmake -DBSC_BUILD_SHARED_LIB=ON` if you also want a shared library.
+4. Run `make`.
+5. Run `sudo make install`.
